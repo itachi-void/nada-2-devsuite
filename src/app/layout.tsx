@@ -11,9 +11,9 @@ import '@/app/globals.css'
 import '@assets/iconify-icons/generated-icons.css'
 
 export const metadata = {
-  title: 'Nada Tarek - Full Stack .NET Developer',
+  title: 'Nada Tarek | DotNet DevSuite Pro',
   description:
-    'Professional portfolio and admin dashboard for Nada Tarek, a skilled Full Stack .NET Developer.'
+    'DotNet DevSuite - A premium enterprise-grade developer suite and admin console tailored for .NET ecosystems by Nada Tarek.'
 }
 
 const RootLayout = ({ children }: ChildrenType) => {

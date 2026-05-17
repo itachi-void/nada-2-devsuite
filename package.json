@@ -1,7 +1,16 @@
 {
-  "name": "next-app-test",
-  "version": "0.1.0",
-  "license": "Commercial",
+  "name": "nada-2-devsuite",
+  "version": "1.0.0",
+  "description": "DotNet DevSuite - A premium enterprise-grade developer suite and admin console tailored for .NET ecosystems by Nada Tarek.",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/itachi-void/nada-2-devsuite.git"
+  },
+  "author": {
+    "name": "Nada Tarek",
+    "url": "https://github.com/itachi-void"
+  },
+  "license": "MIT",
   "private": true,
   "scripts": {
     "dev": "next dev",
