@@ -1,5 +1,4 @@
 // MUI Imports
-import Chip from '@mui/material/Chip'
 import { useTheme } from '@mui/material/styles'
 
 // Third-party Imports

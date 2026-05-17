@@ -48,7 +48,7 @@ const Register = ({ mode }: { mode: Mode }) => {
           <Link href='/' className='flex justify-center items-start mbe-6'>
             <Logo />
           </Link>
-          <Typography variant='h4'>Join Nada Tarek's Hub 🚀</Typography>
+          <Typography variant='h4'>Join Nada Tarek&apos;s Hub 🚀</Typography>
           <div className='flex flex-col gap-5'>
             <Typography className='mbs-1'>Create an account to start managing robust enterprise solutions.</Typography>
             <form noValidate autoComplete='off' onSubmit={e => e.preventDefault()} className='flex flex-col gap-5'>
