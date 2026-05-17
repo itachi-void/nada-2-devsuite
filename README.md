@@ -1,34 +1,141 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# 🚀 Nada Tarek — DevSuite
 
-## Getting Started
+**لوحة تحكم إدارية متكاملة وبيئة تطوير احترافية**
+مقدمة من **ندى طارق** | مطورة Full Stack .NET
 
-First, run the development server:
+---
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
+## 📌 نظرة عامة
+
+**DevSuite** هو مشروع لوحة تحكم إدارية (Admin Dashboard) من الدرجة الأولى، مصمم خصيصًا ليعمل كبيئة تطوير متكاملة ونقطة مركزية لإدارة مشاريع .NET Enterprise. يجمع المشروع بين قوة **Next.js 14** وأناقة **Material UI (MUI v5)** وصرامة **TypeScript**، ليقدم واجهة مستخدم سريعة الاستجابة وسهلة التوسع.
+
+---
+
+## 🎯 الهدف من المشروع
+
+تم بناء هذا المشروع لإثبات الكفاءة التقنية في تصميم وتطوير واجهات المستخدم الاحترافية التي تتكامل مع أنظمة الخلفية المبنية على تقنيات Microsoft .NET. يُظهر المشروع قدرة المطورة على بناء منتجات كاملة من الصفر بأعلى معايير الجودة.
+
+---
+
+## ✨ أبرز المميزات
+
+- 🌗 **دعم Dark Mode / Light Mode** — تبديل فوري بين الوضعين مع حفظ التفضيلات
+- 🎨 **نظام ألوان Deep Violet حصري** — مختلف تمامًا عن أي قالب جاهز
+- ⚡ **أداء فائق** — مبني على Next.js App Router لسرعة تحميل استثنائية
+- 📊 **لوحات بيانات تحليلية** — رسوم بيانية وإحصاءات لحظية
+- 📱 **تصميم متجاوب** — يعمل على جميع أحجام الشاشات
+- 🔒 **بنية آمنة** — TypeScript صارم على جميع طبقات الكود
+- 🧩 **معمارية معيارية** — مكونات قابلة لإعادة الاستخدام والتوسع
+- 🗂️ **إدارة الصفحات** — نظام توجيه متقدم مع App Router
+- 🏗️ **بنية Clean Architecture** — فصل واضح بين طبقات العرض والبيانات
+
+---
+
+## 🛠️ التقنيات المستخدمة
+
+| التقنية | الإصدار | الدور |
+|---------|---------|-------|
+| Next.js | 14 | إطار العمل الرئيسي |
+| Material UI (MUI) | v5 | مكتبة الواجهة |
+| TypeScript | 5.x | الكتابة الآمنة للكود |
+| Tailwind CSS | v3 | تنسيقات مساعدة |
+| React | 18 | مكتبة الواجهات |
+| ApexCharts | 3.x | الرسوم البيانية |
+
+---
+
+## 📁 بنية المشروع
+
+```
+src/
+├── app/            # صفحات Next.js (App Router)
+│   ├── (dashboard)/    # صفحات لوحة التحكم
+│   └── (blank-layout-pages)/  # صفحات بدون تخطيط
+├── @core/          # النواة — الثيم والأنماط الأساسية
+│   ├── theme/          # ألوان، خطوط، ظلال
+│   └── components/     # مكونات النواة
+├── @layouts/       # تخطيطات الصفحات الرئيسية
+├── components/     # المكونات القابلة لإعادة الاستخدام
+├── views/          # العروض الرئيسية للصفحات
+├── configs/        # ملفات الإعداد والثيم
+└── assets/         # الأصول الثابتة والأيقونات
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+---
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## 🚀 تشغيل المشروع محليًا
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+```bash
+# 1. استنساخ المشروع
+git clone #
 
-## Learn More
+# 2. الدخول إلى مجلد المشروع
+cd nada-2-devsuite
 
-To learn more about Next.js, take a look at the following resources:
+# 3. تثبيت الحزم
+npm install
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+# 4. تشغيل بيئة التطوير
+npm run dev
+```
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+افتح المتصفح على: `http://localhost:3000`
 
-## Deploy on Vercel
+---
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## 🏗️ بناء نسخة الإنتاج
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+```bash
+npm run build
+npm run start
+```
+
+---
+
+## 🎨 نظام الألوان (DevSuite Deep Violet Theme)
+
+| العنصر | Light Mode | Dark Mode |
+|--------|-----------|-----------|
+| **Primary** | `#7C3AED` | `#A78BFA` |
+| **Secondary** | `#6366F1` | `#818CF8` |
+| **Background** | `#F5F3FF` | `#0A0714` |
+| **Paper** | `#FFFFFF` | `#150E28` |
+| **Success** | `#10B981` | `#34D399` |
+| **Error** | `#EF4444` | `#F87171` |
+
+---
+
+## 📸 الصفحات المتاحة
+
+| الصفحة | الوصف |
+|--------|-------|
+| 🏠 Dashboard | الصفحة الرئيسية مع الإحصاءات والرسوم البيانية |
+| 📋 Account Settings | إعدادات الحساب والملف الشخصي |
+| 🃏 Card Basic | عرض المكونات الأساسية للبطاقات |
+| 📝 Form Layouts | تخطيطات النماذج المختلفة |
+| 🔑 Login | صفحة تسجيل الدخول |
+| 📝 Register | صفحة إنشاء الحساب |
+| 🔒 Forgot Password | صفحة استعادة كلمة المرور |
+
+---
+
+## 👩‍💻 المطورة
+
+**ندى طارق** — Full Stack .NET Developer
+
+- 🔗 GitHub: [#](#)
+- 🌐 Portfolio: [#](#)
+- 💼 LinkedIn: [#](#)
+- 📧 Email: [#](#)
+
+---
+
+## 📄 الترخيص
+
+هذا المشروع مرخص تحت رخصة **MIT** — يمكن استخدامه وتعديله بحرية مع ذكر المصدر.
+
+---
+
+> *"الكود الجيد لا يُقرأ فقط — بل يُفهم ويُلهم."*
+>
+> — ندى طارق
