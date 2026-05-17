@@ -23,7 +23,7 @@ export type Config = {
 }
 
 const themeConfig: Config = {
-  templateName: 'DevSuite Pro',
+  templateName: 'Nada Tarek - DevSuite',
   settingsCookieName: 'nada-tarek-portfolio',
   mode: 'light', // 'light', 'dark'
   layoutPadding: 24, // Common padding for header, content, footer layout components (in px)
